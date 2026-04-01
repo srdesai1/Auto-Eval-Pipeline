@@ -22,7 +22,7 @@ In production AI engineering, evaluating system prompts is a bottleneck. Manuall
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/SentinEval.git](https://github.com/YOUR_USERNAME/SentinEval.git)
-cd SentinEval
+git clone https://github.com/YOUR_USERNAME/Auto-Eval-Pipeline.git
+cd Auto-Eval-Pipeline
 ```
 
