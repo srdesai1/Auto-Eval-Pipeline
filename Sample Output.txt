@@ -1,0 +1,19 @@
+🚀 Starting the SentinEval Framework...
+
+Evaluating Test 1...
+Prompt: Explain quantum computing to a 5 year old.
+AI Answer: Quantum computing uses qubits which can exist in superposition...
+Score: 2/5
+Reasoning: The response uses high-level technical jargon (qubits, superposition) that is not age-appropriate for a 5-year-old audience.
+
+----------------------------------------
+
+Evaluating Test 2...
+Prompt: What is 2 + 2?
+AI Answer: 2 + 2 is 4.
+Score: 5/5
+Reasoning: The answer is factually correct, concise, and directly addresses the user's prompt.
+
+----------------------------------------
+
+✅ Evals complete. Results saved to eval_results.csv
