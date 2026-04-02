@@ -6,7 +6,7 @@ from google import genai
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
-# Load environment variables
+
 load_dotenv()
 
 # 1. SETUP THE CLIENT
@@ -53,7 +53,7 @@ def judge_response(prompt: str, ai_answer: str) -> dict:
 
 # 4. THE EXECUTION BLOCK
 if __name__ == "__main__":
-    print("🚀 Starting the SentinEval Framework...\n")
+    print("__Starting the SentinEval Framework...\n")
     
     test_cases = [
         {
@@ -96,4 +96,4 @@ if __name__ == "__main__":
         writer.writeheader()
         writer.writerows(results)
         
-    print("✅ Evals complete. Results saved to eval_results.csv")
+    print("Evals complete. Results saved to eval_results.csv")
