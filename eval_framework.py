@@ -17,7 +17,6 @@ if not API_KEY:
 
 client = genai.Client(api_key=API_KEY)
 
-# Use the 'Lite' model to ensure high quota and zero cost
 MODEL_NAME = "gemini-2.5-flash-lite"
 
 # 2. DEFINE THE OUTPUT STRUCTURE
